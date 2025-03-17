@@ -35,15 +35,16 @@ main {
 }
 .jugador {
     background: white;
-    padding: 15px;
+    padding: 20px; /* Aumenté el padding para más espacio interno */
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    width: 300px; /* Aumenté el tamaño del contenedor */
     text-align: center;
 }
 .jugador img {
-    width: 100%;
-    height: auto;
+    width: 200px;  /* Ajusta este valor según el tamaño que desees */
+    height: 200px; /* Asegúrate de que el valor sea el mismo para mantener la proporción */
+    object-fit: contain; /* Asegura que la imagen se ajuste sin recortarse */
     border-radius: 5px;
 }
 .jugador h3 {
